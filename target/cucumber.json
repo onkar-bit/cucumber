@@ -1,0 +1,885 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login in to swag website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15000726800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "go to swag labs website",
+            "match": {
+              "location": "swag.go_to_swag_labs_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 352906200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter username and password",
+            "match": {
+              "location": "swag.enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "standard_user",
+                  "secret_sauce"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214085200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login",
+            "match": {
+              "location": "swag.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50051600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify product page will displayed",
+            "match": {
+              "location": "swag.verify_product_page_will_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 222900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "backgroundtest.print()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2158570200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "backgroundtest.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1259578400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PracticeContactus.go()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1308522800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1239999900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHrm.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1279557200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Leave.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1254288800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "swag.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1264091700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "actionloginpage.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1304406600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "productbuy.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1250449800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shoppingweb.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1240248200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchverify.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1258182300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shoppingtwo.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1299358600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "sortproduct.go()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1300958400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "yourstore.lanuch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1327575900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shoppingdemo.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1326773400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "registeruser.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1298967600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hotelbook.go()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "add to cart product",
+        "description": "",
+        "id": "check-login-functionality-and-buy-functionality;add-to-cart-product",
+        "after": [
+          {
+            "result": {
+              "duration": 137841100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 114785500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on sauce lab backpack product",
+            "match": {
+              "location": "swag.click_on_sauce_lab_backpack_product()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85755300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on add to cart button",
+            "match": {
+              "location": "swag.click_on_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173405700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify product added in cart",
+            "match": {
+              "location": "swag.verify_product_added_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Unit"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "login in to swag website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9982430500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "go to swag labs website",
+            "match": {
+              "location": "swag.go_to_swag_labs_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 350469900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter username and password",
+            "match": {
+              "location": "swag.enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "standard_user",
+                  "secret_sauce"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244283700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login",
+            "match": {
+              "location": "swag.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57943300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify product page will displayed",
+            "match": {
+              "location": "swag.verify_product_page_will_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 63100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "backgroundtest.print()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1385851200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "backgroundtest.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1296060800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PracticeContactus.go()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1431986100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1346606300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHrm.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1286632200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Leave.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1384937000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "swag.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1342048900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "actionloginpage.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1362135100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "productbuy.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1490126400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shoppingweb.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1373649300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchverify.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1354061000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shoppingtwo.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1372990800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "sortproduct.go()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1480456500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "yourstore.lanuch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1398164600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shoppingdemo.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1477374900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "registeruser.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1432490900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hotelbook.go()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "check sort product functionality",
+        "description": "",
+        "id": "check-login-functionality-and-buy-functionality;check-sort-product-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 112277600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37097900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify product page displayed after login",
+            "match": {
+              "location": "swag.click_on_sort_icon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173654900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "select dropdown option price low to high",
+            "match": {
+              "location": "swag.select_dropdown_option_price_low_to_high()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204669000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify lowest price product will come first",
+            "match": {
+              "location": "swag.verify_lowest_price_product_will_come_first()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Unit"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "login in to swag website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 26638616200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "go to swag labs website",
+            "match": {
+              "location": "swag.go_to_swag_labs_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 311419800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter username and password",
+            "match": {
+              "location": "swag.enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "standard_user",
+                  "secret_sauce"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160910800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login",
+            "match": {
+              "location": "swag.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59073100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify product page will displayed",
+            "match": {
+              "location": "swag.verify_product_page_will_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 101900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "backgroundtest.print()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1504795600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "backgroundtest.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1553647500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PracticeContactus.go()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1345537900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1450497600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHrm.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1419440800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Leave.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1459146000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "swag.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1413554400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "actionloginpage.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1403330700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "productbuy.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1572931700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shoppingweb.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1603083400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "searchverify.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1445366700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shoppingtwo.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1496351800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "sortproduct.go()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1514362400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "yourstore.lanuch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1455612300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shoppingdemo.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1547449300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "registeruser.launch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1559387200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hotelbook.go()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "check high to low sort functionality",
+        "description": "",
+        "id": "check-login-functionality-and-buy-functionality;check-high-to-low-sort-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 147087800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39276400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is on product page",
+            "match": {
+              "location": "swag.user_is_on_product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159832600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "select dropdown option price high to low",
+            "match": {
+              "location": "swag.select_dropdown_option_price_high_to_low()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209292300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify highest price product will come first",
+            "match": {
+              "location": "swag.verify_highest_price_product_will_come_first()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Unit"
+          }
+        ]
+      }
+    ],
+    "name": "check login functionality and buy functionality",
+    "description": "",
+    "id": "check-login-functionality-and-buy-functionality",
+    "keyword": "Feature",
+    "uri": "swaglab.feature"
+  }
+]
